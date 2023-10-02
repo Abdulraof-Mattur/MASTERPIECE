@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="TravelEase , an Travel and Tourism 
+      application that allows users to easily book both domestic and 
+      international flights, explore various destinations, 
+      discover activities and events."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="img/logos/WhatsApp Image 2023-09-22 at 02.27.28.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="img/logos/WhatsApp Image 2023-09-22 at 02.27.28.jpg"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>ThreadWise</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="ThreadWise logo"
+          src="./img/logos/WhatsApp_Image_2023-09-22_at_02.27.28-removebg-preview.png"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">About</a></li>
+          <li><a class="main-nav-link" href="#meals">Collections</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Where fashion meets convenience,you'll find ThreadWise.
+            </h1>
+            <p class="hero-description">
+              ThreadWise is your ultimate fashion companion, designed to make
+              your style journey effortless and exciting. Our app goes beyond
+              just shopping; it's your go-to destination for all things
+              fashion-related. ThreadWise offers a seamless fashion experience
+              and a wealth of style resources at your fingertips.
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Start Styling!</a
+            >
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>250,00+</span> Styles Rocked Last Year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <!-- <source srcset="img/hero.webp" type="image/webp" /> -->
+              <!-- <source srcset="img/hero-min.png" type="image/png" /> -->
+
+              <img
+                src="./img/Clothes/benjamin-rascoe-WdhmRPvMn7A-unsplash.jpg"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">Our Competitors</h2>
+          <br />
+          <div class="logos">
+            <img src="img/competitors/hm-logo-1.png" alt="Techcrunch logo" />
+            <img
+              src="img/competitors/3132d7cc02cdd9ceacd7bceb0738828d.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/competitors/Dolce-Gabbana-Logo.png"
+              alt="The New York Times logo"
+            />
+            <img
+              src="img/competitors/Calvin-Klein-logo.png"
+              alt="Forbes logo"
+            />
+            <img src="img/competitors/Zara-Logo.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">About Us</span>
+          <h2 class="heading-secondary">
+            "Elevate your style, one ThreadWise choice at a time."
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Redefining fashion shopping.</h3>
+            <p class="step-description">
+              ThreadWise is on a mission to transform your fashion shopping
+              experience. We curate the best in fashion, provide personalized
+              style recommendations, and empower you to express your unique
+              style effortlessly.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/Clothes/alexi-romano-CCx6Fz_CmOI-unsplash.jpg"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/Clothes/colton-sturgeon-AMp9R24pPUc-unsplash.jpg"
+              class="step-img"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Committed to a greener future.</h3>
+            <p class="step-description">
+              ThreadWise is committed to sustainability. Our eco-conscious
+              fashion collection lets you make stylish choices that also benefit
+              the environment. Join us in shaping a greener, more stylish
+              future.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Your style, your uniqueness.</h3>
+            <p class="step-description">
+              ThreadWise celebrates your unique style. Whether you're a
+              trendsetter, minimalist, or somewhere in between, we offer diverse
+              fashion choices, allowing you to craft your style narrative with
+              confidence.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/Clothes/faith-yarn-hgtWvsq5e2c-unsplash.jpg"
+              class="step-img"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Collections</span>
+          <h2 class="heading-secondary" style="font-size: 3rem">
+            <span style="color: #31afb4">ThreadWise </span> - your style journey
+            begins here.
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/Clothes/john-paul-henry-Da0jti8Ekp8-unsplash.jpg"
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Casual</span>
+              </div>
+              <p class="meal-title">Global Collections</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="img/Clothes/benjamin-rascoe-WdhmRPvMn7A-unsplash.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Suits</span>
+                <span class="tag tag--paleo">Dresses</span>
+              </div>
+              <p class="meal-title">Exclusive Collections</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Our Categories:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>T-Shirts</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Dresses</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Jeans & Trousers</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Outerwear</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Activewear</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Skirts & Shorts</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Formal Wear</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Sustainable Fashion</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">See Full Details &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading" style="color: whitesmoke">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dave Bryson"
+                src="img/customers/dave.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "ThreadWise transformed my shopping. Personalized
+                recommendations are spot on!"
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ali Marwan</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Ben Hadley"
+                src="img/customers/ben.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "ThreadWise's eco-conscious choices impressed me. Stylish and
+                responsible shopping in one place."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Samer Yasen</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+                src="img/customers/steve.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "ThreadWise's formal wear selection is unmatched. Quality is
+                always top-notch."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+                src="img/customers/hannah.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "ThreadWise is my go-to for the perfect dress. They have a dress
+                for every mood and event."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Yasmeen Ali</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/alexi-romano-CCx6Fz_CmOI-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/alicia-petresc-BciCcl8tjVU-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/anomaly-WWesmHEgXDs-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/benjamin-rascoe-WdhmRPvMn7A-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/colton-sturgeon-AMp9R24pPUc-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/dami-adebayo-k6aQzmIbR1s-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/fadkhera-official-n_Si7Q7SdJk-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/faith-yarn-hgtWvsq5e2c-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/faith-yarn-Wr0TpKqf26s-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/john-paul-henry-Da0jti8Ekp8-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/kemal-alkan-_BDBEP0ePQc-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/Clothes/mahdi-bafande-npyWFYpHQ94-unsplash.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Sign Up to Discover the Beauty of Style!
+              </h2>
+              <p class="cta-text">
+                "Life is too short to wear boring clothes. ThreadWise, because
+                you deserve the best."
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Abdulraof Mattur"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="Facebook">Facebook ad</option>
+                    <option value="Instagram">Instagram ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="logo1"
+              alt="ThreadWise logo"
+              src="img/logos/WhatsApp_Image_2023-09-22_at_02.27.28-removebg-preview.png"
+            />
+          </a>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">Our App</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About ThreadWise</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Contact</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Jordan, Amman</a></li>
+            <li><a class="footer-link" href="#">+962779123531</a></li>
+            <li><a class="footer-link" href="#">ThtradWise@gmail.com</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
